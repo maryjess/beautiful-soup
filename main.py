@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup # got imports issue, better refactor to setup.py
 
 url = 'https://maryjess.github.io/jessica-mary/'
 response = requests.get(url)
